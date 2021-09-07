@@ -1,0 +1,7 @@
+hello
+goodbye
+cat
+dog
+snake
+fluffy
+puffy

@@ -20,18 +20,18 @@ class SerialGenerator:
 
     def __init__(self, start):
         """ Setting the starter number """
-        self.original_start = start - 1
-        self.start = start - 1
+        self.original_start = self.start = start
+        # self.start = start
 
     def generate(self):
         """ Returns the start number + 1 every time it's called"""
         self.start += 1
-        return self.start
+        return self.start-1
 
     def reset(self):
         """Reset self.start to original start number"""
 
         self.start = self.original_start
     
-
+# Opportunity to do the -1 in generate
 
